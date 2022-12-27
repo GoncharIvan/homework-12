@@ -1,0 +1,428 @@
+@font-face {
+    font-family: "Sofia Sans";
+    font-display: swap;
+    src: url("../fonts/AnyConv.com__SofiaSans.woff") format("woff"), 
+         url("../fonts/AnyConv.com__SofiaSans.woff2") format("woff2");
+  }
+
+  /* roboto-400 - latin */
+@font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local(''),
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), 
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); 
+  }
+  /* roboto-500 - latin */
+  @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        src: local(''),
+         url('../fonts/roboto-v30-latin-500.woff2') format('woff2'),
+         url('../fonts/roboto-v30-latin-500.woff') format('woff'); 
+  }
+  /* roboto-700 - latin */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        src: local(''),
+         url('../fonts/roboto-v30-latin-700.woff2') format('woff2'),
+         url('../fonts/roboto-v30-latin-700.woff') format('woff'); 
+  }
+  /* roboto-900 - latin */
+  @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        src: local(''),
+         url('../fonts/roboto-v30-latin-900.woff2') format('woff2'),
+         url('../fonts/roboto-v30-latin-900.woff') format('woff'); 
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+li {
+    list-style-type: none; 
+}
+
+a {
+    text-decoration: none;
+    color: #1B1D1F;
+}
+
+.conteiner-1 {
+    display: flex;
+    width: 1180px;
+    margin: 0 auto;
+    font-family: 'Roboto';  
+    
+  
+}
+
+.conteiner-2 {
+    width: 1180px;
+    margin: 0 auto;
+    font-family: 'Roboto'; 
+     
+}
+
+.conteiner-3 {
+    width: 1020px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    
+}
+
+/* heder */
+
+.background {
+    background-image: url(../img/img-main/lady.png) ,url(../img/img-main/Rectangle\ 1.png);
+    height:663px;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+    background-size:650px, cover; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    flex-direction: column;
+    
+      
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 60px;
+    width: 1080px;
+    
+    
+  
+    
+} 
+
+.heder-logo {
+    display: flex;
+    align-items: center;
+    font-family: "Sofia Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #46B1DE;   
+}
+
+.logo-text {
+    font-size: 38px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dentist {
+    font-size: 27px;
+}
+
+.navigation {
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 80px;
+    padding-top: 18px;  
+}
+ 
+.phone-hider {
+    display: flex;
+    align-items: flex-start;    
+    padding-top: 18px;
+}
+
+.nomer-hider {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+   
+}
+
+.language {
+    display: flex;
+    height: 23px;
+    width: 77px;
+    margin: 78px 0 0 23px;
+    color: #1B1D1F;
+}
+
+.EN {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+} 
+.UA {   
+    font-weight: 700;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;   
+}
+
+.line-1 {
+    font-size: 22px;
+    margin: 0 10px 0 10px;
+}
+
+/* main-page */
+
+.main-page {
+    margin-top: 34px;
+    width: 480px;
+    color: #1B1D1F;    
+}
+
+.h1-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0.1em;
+}
+
+.third-line {   
+    color: #46B1DE; 
+}
+
+.text-discr {
+    margin-top: 30px;
+    line-height: 140%;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 48px;
+}
+
+.CALL {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 180px;
+    height: 60px;   
+    background: linear-gradient(97.59deg, #46B1DE 9.8%, #0591CC 95.1%);
+    box-shadow: 0px 2px 10px #46B1DE;
+    border-radius: 8px;  
+    color: #FFFFFF;
+}
+
+.SERVICES {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 180px;
+    height: 60px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border: 1px solid #DDE0DC;
+    box-shadow: 0px 2px 10px #DDE0DC;
+    border-radius: 8px;
+    color: #46B1DE;    
+}   
+
+.block-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, auto);  
+    gap: 74px;
+    justify-items: center;
+    position: absolute;
+    bottom: -120px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.one {
+    display: flex;
+    height: 120px;
+    width: 280px;        
+    background: #FFFFFF;
+    border: 1px solid #D8E1E1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-family: 'Roboto';       
+}
+
+.nomber1 {   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 76px;
+    color: #46B1DE;
+    padding: 0 15px;         
+}
+
+.textspan {
+    display: flex;
+    align-items: center;        
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1B1D1F;
+}
+
+.text-why h2 {
+    text-align: center; 
+    font-weight: 400;  
+    font-size: 34px;
+    line-height: 130%;
+    margin-top: 148px;
+    color: #1B1D1F;
+}
+
+.text-why h2 span {
+    font-weight: 600;
+    color: #46B1DE;
+}
+
+.text-why p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+    margin-top: 5px;
+}
+
+/* six block */
+
+.block-with-boxes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px 40px;
+    width: 1020px;
+    height: 396px;
+    background: #A1C7D4;
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 50px;    
+}
+
+.box {
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 300px;
+    height: 176px; 
+    padding: 10px 20px; 
+}
+
+.inbox {
+    display: flex;
+    color: #46B1DE;   
+}
+
+.nomber {
+    font-size: 40px;
+    line-height: 47px;
+    height: 56px;
+    display: flex;      
+}
+
+.nombertext {
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;   
+}
+
+.box p {
+    margin-top: 17px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #1B1D1F;
+}
+
+/* input block */
+
+.external-block-entry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 845px;
+    height: 265px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 87px auto 0 auto;
+}
+
+.inner-block {   
+    width: 821px;
+    height: 247px;
+    left: 280px;
+    top: 1447px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    color: #1B1D1F;
+}
+
+.inner-block h2{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 29px;
+}
+
+.inner-block p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    margin-top: 7px;       
+}
+
+.date-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-input {
+    width: 233px;
+    height: 57px;   
+    background: rgba(217, 217, 217, 0.71);
+    border-radius: 8px;
+    position: relative;
+   
+}
+
+.fa {
+    background: url(../img/img-main/user\ 4.svg);
+}
+.data-input i{
+    position: absolute;
+    right: 0;
+    top: 5;
+    padding: 14px 13px;
+    
+    
+}
+
