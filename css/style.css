@@ -99,11 +99,7 @@ header {
     display: flex;
     justify-content:space-between;
     margin-top: 60px;
-    width: 1080px;
-    
-    
-  
-    
+    width: 1080px;  
 } 
 
 .heder-logo {
@@ -346,16 +342,16 @@ header {
 .box p {
     margin-top: 17px;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-color: #1B1D1F;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1B1D1F;
 }
 
 /* input block */
 
-.external-block-entry {
+.external-block-registration {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -368,7 +364,7 @@ color: #1B1D1F;
     margin: 87px auto 0 auto;
 }
 
-.inner-block {   
+.inner-block-registration {   
     width: 821px;
     height: 247px;
     left: 280px;
@@ -380,7 +376,7 @@ color: #1B1D1F;
     color: #1B1D1F;
 }
 
-.inner-block h2{
+.inner-block-registration h2{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 32px;
@@ -390,7 +386,7 @@ color: #1B1D1F;
     margin-top: 29px;
 }
 
-.inner-block p {
+.inner-block-registration p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -402,27 +398,54 @@ color: #1B1D1F;
 
 .date-buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 44px;   
 }
 
 .data-input {
+    display: flex;
+    align-items: center;
     width: 233px;
     height: 57px;   
     background: rgba(217, 217, 217, 0.71);
-    border-radius: 8px;
-    position: relative;
-   
+    border-radius: 8px; 
 }
 
-.fa {
-    background: url(../img/img-main/user\ 4.svg);
+.data-input img {
+    width: 22.15px;
+    height: 24px;
+    margin-left: 10px;
 }
-.data-input i{
-    position: absolute;
-    right: 0;
-    top: 5;
-    padding: 14px 13px;
-    
-    
+
+.line-2 {
+    font-size: 32px;
+    margin: 0 10px 0 10px;
 }
+
+.data-input input {
+    background: rgba(0,0,0, 0.0);
+    border: 0;   
+}
+
+.button-sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #46B1DE;
+    border-radius: 8px;    
+    width: 180px;
+    height: 57px;   
+}
+
+.button-sign-up a {
+    color: #FFFFFF; 
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 140%; 
+}
+
+
+
+
 
