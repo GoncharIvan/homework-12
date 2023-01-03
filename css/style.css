@@ -93,8 +93,7 @@ a {
     .header-wrap{
         width: 992px;
        max-width: 97%;
-       padding: 0 10px 0 10px;
-            
+       padding: 0 10px 0 10px;            
 }
 }
 
@@ -115,8 +114,7 @@ a {
 
 @media(max-width: 480px){
     .header_vithout_language{
-       max-width: 480px;
-            
+       max-width: 480px;           
 }
 }
 
@@ -141,13 +139,12 @@ a {
 
 @media(max-width: 480px){
     .logo-tooth {
-        width: 50px;    
+        width: 40px;    
 }
 }
 
 @media(max-width: 480px){
-    .heder-logo p{
-            
+    .heder-logo p{           
 }
 }
 
@@ -159,7 +156,7 @@ a {
 @media(max-width: 480px){
     .logo-text {
         font-weight: 400;
-        font-size: 24px;
+        font-size: 20px;
         line-height: 140%;    
 }
 }
@@ -171,7 +168,7 @@ a {
 @media(max-width: 480px){
     .dentist {
         font-weight: 400;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 140%;   
 }
 }
@@ -206,14 +203,14 @@ a {
 
 @media(max-width: 480px){
     .phone-header{
-        padding-top: 0px;
-           
+        padding-top: 0px;          
 }
 }
 
 @media(max-width: 480px){
-    .phone-logo-hider{
-       
+    .phone-logo-hider{ 
+        width: 18px;
+            
 }
 }
 
@@ -225,9 +222,9 @@ a {
 
 @media(max-width: 480px){
     .nomer-header{
-        /* font-size: 12px;
-        line-height: 14px;      */
-        
+        font-size: 15px;
+        padding-left: 5px;
+        /* line-height: 14px;              */
 }
 }
 
@@ -250,6 +247,7 @@ a {
 .EN {
     font-weight: 400;   
 } 
+
 .UA {   
     font-weight: 700;     
 }
@@ -273,24 +271,21 @@ a {
 @media(max-width: 480px){
     .background{
         background-position: center bottom, left top;
-        background-size:280px, cover; 
-          
+        background-size:280px, cover;           
 }
 }
 
 .main-page {
     margin-top: 185px;
     max-width: 480px;
-    color: #1B1D1F;
-       
+    color: #1B1D1F;       
 }
 
 @media(max-width: 480px){
     .main-page{
         margin-top: 135px;
         text-align: center;
-        
-          
+        padding: 0px 25px;         
 }
 }
  
@@ -304,12 +299,11 @@ a {
 
 @media(max-width: 480px){
     .h1-title {
-        font-size: 34px;
-          
+        font-size: 32px;          
 }
 }
 
-.third-line {   
+.h1_dental {   
     color:var(--main-color); 
 }
 
@@ -355,8 +349,8 @@ a {
 }
 
 @media(max-width: 480px){
-    .call{
-        
+    .call{ 
+        padding: 11.5px 57px;       
 }
 }
 
@@ -371,7 +365,13 @@ a {
     box-shadow: 0px 2px 10px #DDE0DC;
     border-radius: 8px;
     color:var(--main-color);    
-}   
+}  
+
+@media(max-width: 480px){
+    .services{ 
+        padding: 11.5px 36.5px;       
+}
+}
 
 /* *************three-blocks-bottom************* */
 
@@ -388,8 +388,7 @@ a {
 
 @media(max-width: 992px){
     .three-blocks-bottom{
-        gap: 45px;  
-            
+        gap: 45px;              
 }
 }
 
@@ -417,8 +416,7 @@ a {
 @media(max-width: 992px){
     .block-bottom{
         height: 90px;
-    width: 250px;  
-        
+    width: 250px;          
 }
 }
 
@@ -440,7 +438,6 @@ a {
     font-size: 14px;
     line-height: 16px;
     color: #1B1D1F;
-
 }
 
 .text-why h2 {
@@ -485,9 +482,7 @@ a {
     .block-with-boxes{
         width: 340px;
         height: 100%;
-        align-items: center;
-    
-        
+        align-items: center;        
 }
 }
 
@@ -550,8 +545,7 @@ a {
 
 @media(max-width: 480px){
     .external-block-registration{
-     display: none;
-          
+     display: none;          
 }
 }
 
@@ -647,8 +641,7 @@ a {
     .pictures{
       flex-direction: column;
       align-items: center;
-      gap: 20px;
-          
+      gap: 20px;          
 }
 }
 
@@ -670,8 +663,7 @@ a {
 
 @media(max-width: 480px){
     .background-footer{
-      height: 100%;
-          
+      height: 100%;         
 }
 }
 
@@ -683,9 +675,7 @@ a {
 @media(max-width: 480px){
     .footer_wrap{
       display: block;
-      padding: 30px 12px;
-      
-          
+      padding: 30px 12px;          
 }
 }
 
@@ -746,8 +736,7 @@ a {
 
 @media(max-width: 480px){
     .footer-contacts {
-      margin: 44px 0 0 0;
-          
+      margin: 44px 0 0 0;          
 }
 }
 
@@ -787,8 +776,7 @@ a {
 }
 
 .footer-instagram {
-    margin-top: 12px;
-    
+    margin-top: 12px;    
 }
 
 .footer-instagram span {
